@@ -80,9 +80,27 @@ li{
 }
 
 .main > div{
-  width:50vw;
   height:500px;
   display:flex;
-  justify-content: center;
-  align-items: center;
+}
+
+.abstract-art-wrapper{
+  position:relative;
+  width : 62.5vw;
+}
+
+#box1{
+  position:absolute;
+  top: 10vh;
+  left: 14.375vw;
+  width : 43.75vw;
+  height: 43.75vw;
+}
+
+#box2{
+  position:absolute;
+  top: 15vh;
+  left: 12.5vw;
+  width : 43.75vw;
+  height: 43.75vw;
 }
